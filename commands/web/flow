@@ -1,0 +1,8 @@
+#!/bin/bash
+#ddev-generated
+## Description: Run FLOW CLI (flow) command inside the web container
+## Usage: flow [args]
+## Example: "ddev flow site:list" or "ddev flow flow:package:rescan" or "ddev flow extension:list"
+## ProjectTypes: php
+
+./flow "$@"
