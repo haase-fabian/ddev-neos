@@ -26,6 +26,7 @@ pre_install_actions:
 # - touch somefile.${DDEV_PROJECT_TYPE}.${DDEV_DOCROOT}.txt
 
 # This item shows complex go templating possibilities based on yaml_read_files
+- mkdir -p Configuration/Development/Ddev
 - |
   cat <<EOF >Configuration/Development/Ddev/Settings.ddev.yaml
   Neos:
