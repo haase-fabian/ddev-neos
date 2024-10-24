@@ -6,8 +6,23 @@ This repository allows you to quickly install a Neos CMS environment as a Ddev p
 
 ## Installation
 
-* `ddev get haase-fabian/ddev-neos`
-* `ddev restart`
+For DDEV v1.23.5 or above run
+
+```bash
+ddev add-on get haase-fabian/ddev-neos
+```
+
+For earlier versions of DDEV run
+
+```bash
+ddev get haase-fabian/ddev-neos
+```
+
+Then restart your project
+
+```bash
+ddev restart
+```
 
 ## Explanation
 
