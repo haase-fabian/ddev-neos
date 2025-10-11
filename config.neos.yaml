@@ -1,5 +1,4 @@
 docroot: "Web"
 hooks:
-  post-start:
-    - exec: composer install
-    - exec: ./flow flow:package:rescan
+  post-composer:
+    - exec: ./flow neos.flow:package:rescan
